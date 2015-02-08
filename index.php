@@ -4,6 +4,7 @@
 		<title>Mistery Trip</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+        <script src="assets/scripts/slider.js"></script>
 	</head>
 	<body>
 		<header id="menuTop">
