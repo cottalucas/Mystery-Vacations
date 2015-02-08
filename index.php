@@ -13,6 +13,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
         <script src="assets/scripts/slider.js"></script>
+        <script src="assets/scripts/fbScripts.js"></script>
     </head>
 	<body onload="initSlider()">
 		<!-- BEGIN Facebook Import-->
