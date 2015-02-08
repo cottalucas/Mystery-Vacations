@@ -1,7 +1,7 @@
 <div class="mainBox" id="calendarDiv">
     <div id="aboutBox" class="container">
 
-        <div class="text-budget">
+        <div class="text-information">
             <h1 style = "padding-left: 10%" >Calendar</h1>
             <p>When do you want to go?</p>
         </div>

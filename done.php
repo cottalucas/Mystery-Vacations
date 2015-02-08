@@ -1,4 +1,4 @@
-<div class="mainBox" id="budgetDiv">
+<div class="mainBox" id="doneDiv">
     <div id="aboutBox" class="container">
 
         <div class="text1">

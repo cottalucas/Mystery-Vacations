@@ -21,6 +21,6 @@
         </div>
     </div>
 
-    <a href="#" id="btnIndex" onclick="slide('#indexDiv', '#informationDiv');"><div class="button" id="bStart">Get Started!</div></a>
+    <a href="#" id="btnIndex" onclick="slide('#indexDiv', '#budgetDiv');"><div class="button" id="bStart">Get Started!</div></a>
 
 </div>

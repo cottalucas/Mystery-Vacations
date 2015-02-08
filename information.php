@@ -10,6 +10,5 @@
             <div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="true" data-auto-logout-link="false"></div>
         </div>
     </div>
-    <div class="button" id="bStart"><a href="#">Back!</a></div> <br />
-    <div class="button" id="bStart"><a href="#">Next!</a></div>
+<a href="#" id="btnIndex" onclick="slide('#informationDiv', '#doneDiv');"><div style="padding-top:5.5%" class="button" id="bStart">Next!</div></a>
 </div>
