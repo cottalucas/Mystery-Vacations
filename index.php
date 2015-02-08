@@ -19,17 +19,18 @@
                 alert(err);
             }
     </script>
-        <title>Mistery Trip</title>
+    
+        <title>Mistery Vacations</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
         <script src="assets/scripts/slider.js"></script>
     </head>
-	<body>
+	<body onload="initSlider()">
 		<header id="menuTop">
 			<div class="container">
 				<ul class="nav nav-justified">
 					<li>
-						<a href="#">Home</a>
+						<a href="index.php">Home</a>
 					</li>
 					<li>
 						<a href="#">Contact</a>
@@ -50,6 +51,6 @@
             <?php include("information.php") ?>
             <?php include("done.php") ?>
         </section>
-        <footer></footer>	
+        <footer></footer>
 	</body>
 </html>

@@ -21,4 +21,4 @@
         </div>
     </div>
 </div>
-<div class="button" id="bStart"><a href=#"> Get Started!</a></div>
+<a href="#" id="btnIndex" onclick="slide();"><div class="button" id="bStart">Get Started!</div></a>

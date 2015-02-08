@@ -58,7 +58,7 @@ nav{
 	color: #FFFFFF;
 }
 
-.mainBox{
+#mainBox{
 	padding-top: 15px;
 		position: relative;
 	background-image: url("bg.png");
@@ -102,3 +102,15 @@ nav{
 	font-style: none !important;
 
 } 
+
+.divs{
+	color: #000000;
+	width: 800px;
+	margin-bottom: 10px;
+        font-size: 20px;
+        text-align: center;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 02fa99df2f55676b54175c1195d7692e034f0e9c
