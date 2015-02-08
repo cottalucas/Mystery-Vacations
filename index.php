@@ -1,24 +1,21 @@
 <html>
     <head>
-        <script type="text/javascript" href="/assets/scripts/jquery-2.1.3.min.js"></script>
-        <script type="text/javascript" href="/assets/scripts/jquery-ui.js"></script>
-        <script type="text/javascript" href="/assets/scripts/jquery-ui.css"></script>
+        <!--script type="text/javascript" href="/assets/scripts/jquery-2.1.3.min.js"></script-->
+        <!--script type="text/javascript" href="/assets/scripts/jquery-1.11.2.min.js"></script-->
+        <!--script type="text/javascript" href="/assets/scripts/jquery-ui.js"></script>
+        <script type="text/javascript" href="/assets/scripts/jquery-ui.css"></script -->
+
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
         <script  type="text/javascript">
             
-            
-         try {
-                    jQuery(function($)) {
-                    alert('test');
-                    //$( "#datepicker" ).datepicker();
-                });
-                   alert('complete');
-                }
-                
-            }
-            catch (err) {
-                alert(err);
-            }
-    </script>
+            alert('wtf');
+
+
+			$(document).ready(function(){
+			    alert('das');
+			});             
+   		</script>
     
         <title>Mistery Vacations</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
