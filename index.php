@@ -4,23 +4,16 @@
         <!--script type="text/javascript" href="/assets/scripts/jquery-1.11.2.min.js"></script-->
         <!--script type="text/javascript" href="/assets/scripts/jquery-ui.js"></script>
         <script type="text/javascript" href="/assets/scripts/jquery-ui.css"></script -->
-<<<<<<< HEAD
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     
-=======
 
- 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
- 
->>>>>>> 91113e8eae367d7350e12524d7404a5272985dbc
         <title>Mistery Vacations</title>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
         <script src="assets/scripts/slider.js"></script>
-<<<<<<< HEAD
+
         <script>
             $(function() {
             $( "#departure" ).datepicker();
@@ -30,10 +23,7 @@
             $( "#arrival" ).datepicker();
             });
         </script>
-        
-=======
         <script src="assets/scripts/fbScripts.js"></script>
->>>>>>> 91113e8eae367d7350e12524d7404a5272985dbc
     </head>
 	<body onload="initSlider()">
 		<!-- BEGIN Facebook Import-->
