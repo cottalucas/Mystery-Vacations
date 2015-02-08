@@ -12,44 +12,46 @@ function slide() {
     var duration = 300;
     
     if(page == 0)
-    {
-        $("#indexDiv").hide("slide", { direction: "right" }, duration-10);
         $('#budgetDiv').toggle(effect, options, duration);
-    }
     else if(page == 1)
-    {
-        $("#budgetDiv").hide("slide", { direction: "right" }, duration-10);
         $('#calendarDiv').toggle(effect, options, duration);
-    }
     else if(page == 2)
-    {
-        $("#calendarDiv").hide("slide", { direction: "right" }, duration-10);
         $('#informationDiv').toggle(effect, options, duration);
-    }
     else
-    {
-        $("#informationDiv").hide("slide", { direction: "right" }, duration-10);
         $('#doneDiv').toggle(effect, options, duration);
-    }
     page++;
 }
 
 function initSlider()
 {
+<<<<<<< HEAD
     var effect='slide';
     var options={direction:"right"}
-    var duration = 150;
+    var duration = 50;
     
-    /*
     $('#budgetDiv').toggle(effect, options, duration);
     $('#calendarDiv').toggle(effect, options, duration);
     $('#informationDiv').toggle(effect, options, duration);
     $('#doneDiv').toggle(effect, options, duration);
-    */
-    
-    $("#budgetDiv").hide("slide", { direction: "right" }, duration);
-    $("#calendarDiv").hide("slide", { direction: "right" }, duration);
-    $("#informationDiv").hide("slide", { direction: "right" }, duration);
-    $("#DoneDiv").hide("slide", { direction: "right" }, duration);
+=======
+    alert('slider');
+
+    try
+    {   
+        var effect='slide';
+        var options={direction:"right"}
+        var duration = 50;
+
+        /*$('#budgetDiv').toggle(effect, options, duration);
+        $('#calendarDiv').toggle(effect, options, duration);
+        $('#informationDiv').toggle(effect, options, duration);
+        $('#doneDiv').toggle(effect, options, duration);*/
+        $("#budgetDiv").hide("slide", { direction: "right" }, 1200);
+    }
+    catch (err)
+    {
+        alert('init slider: ' + err);
+    }
+>>>>>>> e851acd0e397309dd58c21574dacd4b2a00599bd
 }
 
