@@ -24,13 +24,23 @@ function slide() {
 
 function initSlider()
 {
-    var effect='slide';
-    var options={direction:"right"}
-    var duration = 50;
+    alert('slider');
 
-    $('#budgetDiv').toggle(effect, options, duration);
-    $('#calendarDiv').toggle(effect, options, duration);
-    $('#informationDiv').toggle(effect, options, duration);
-    $('#doneDiv').toggle(effect, options, duration);
+    try
+    {   
+        var effect='slide';
+        var options={direction:"right"}
+        var duration = 50;
+
+        /*$('#budgetDiv').toggle(effect, options, duration);
+        $('#calendarDiv').toggle(effect, options, duration);
+        $('#informationDiv').toggle(effect, options, duration);
+        $('#doneDiv').toggle(effect, options, duration);*/
+        $("#budgetDiv").hide("slide", { direction: "right" }, 1200);
+    }
+    catch (err)
+    {
+        alert('init slider: ' + err);
+    }
 }
 
