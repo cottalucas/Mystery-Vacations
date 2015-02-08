@@ -27,7 +27,10 @@
 		<header id="menuTop">
 			<div class="container">
 				<ul class="nav nav-justified">
-					<li>
+                                        <li>
+                                            <img src="logo.png" width="200" height="70"><br>
+                                        </li>
+                                        <li>
 						<a href="index.php">Home</a>
 					</li>
 					<li>
