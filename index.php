@@ -8,24 +8,37 @@
  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-
-        <!--script  type="text/javascript">
-            
-            alert('wtf');
-
-
-			$(document).ready(function(){
-			    alert('das');
-			});             
-   		</script-->
-    
+ 
         <title>Mistery Vacations</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
         <script src="assets/scripts/slider.js"></script>
+        <script src="assets/scripts/fbScripts.js"></script>
     </head>
 	<body onload="initSlider()">
-		<header id="menuTop">
+		<!-- BEGIN Facebook Import-->
+        <div id="fb-root"></div>
+        <script type="text/javascript">
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId      : '720799318033861',
+                    xfbml      : true,
+                    version    : 'v2.2',
+                    cookie     : true
+                });
+            };
+
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "https://connect.facebook.net/en_US/all.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <!-- END Facebook Import-->
+        
+        <header id="menuTop">
 			<div class="container">
 				<ul class="nav nav-justified">
 					<li>
