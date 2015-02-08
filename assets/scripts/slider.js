@@ -27,7 +27,7 @@ function initSlider()
     var effect='slide';
     var options={direction:"right"}
     var duration = 50;
-
+    
     $('#budgetDiv').toggle(effect, options, duration);
     $('#calendarDiv').toggle(effect, options, duration);
     $('#informationDiv').toggle(effect, options, duration);
