@@ -1,12 +1,18 @@
 <div class="mainBox" id="calendarDiv">
     <div id="aboutBox" class="container">
 
-        <div class="text1">
-            <h1>Calendar</h1>
+        <div class="text-budget">
+            <h1 style = "padding-left: 10%" >Calendar</h1>
             <p>When do you want to go?</p>
-            
-            Departure: <div id="departure"></div>
-            Arrival: <div id="arrival"</div>
+        </div>
+            <table>
+            <tr>
+                <td style="padding-left: 30%">Departure: <div id="departure"></div></td>
+
+                <td style="padding-left: 75%">Arrival: <div id="arrival"</div></td>
+            </tr>
+            </table>
             
     </div>
+    <a href="#" id="btnIndex" onclick="slide('#calendarDiv', '#informationDiv');"><div style="padding-top:5.5%" class="button" id="bStart">Next!</div></a>
 </div>

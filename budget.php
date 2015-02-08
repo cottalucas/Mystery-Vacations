@@ -9,6 +9,6 @@
         </div>
     </div>
 
-    <a href="#" id="btnIndex" onclick="slide('#budgetDiv', '#calendarDiv');"><div class="button" id="bStart">Next</div></a>
+    <a href="#" id="btnIndex" onclick="slide('#budgetDiv', '#calendarDiv');"><div style="padding-top:5.5%" class="button" id="bStart">Next!</div></a>
 
 </div>
