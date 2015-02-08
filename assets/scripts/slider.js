@@ -13,9 +13,16 @@ function slide(hideElm, showElm) {
     
     //  style="display: none"
 
-    $(hideElm).hide();
+    try
+    {
+        $(hideElm).hide();
 
-    $(showElm).toggle(effect, options, duration);
+        $(showElm).toggle(effect, options, duration);
+    }
+    catch (err)
+    {
+        alert('slide' + err);
+    }
 
     /*if(page == 0)
         $('#budgetDiv').toggle(effect, options, duration);
