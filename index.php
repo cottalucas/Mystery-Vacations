@@ -4,25 +4,24 @@
         <!--script type="text/javascript" href="/assets/scripts/jquery-1.11.2.min.js"></script-->
         <!--script type="text/javascript" href="/assets/scripts/jquery-ui.js"></script>
         <script type="text/javascript" href="/assets/scripts/jquery-ui.css"></script -->
-
- 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-
-        <!--script  type="text/javascript">
-            
-            alert('wtf');
-
-
-			$(document).ready(function(){
-			    alert('das');
-			});             
-   		</script-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     
         <title>Mistery Vacations</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
         <script src="assets/scripts/slider.js"></script>
+        <script>
+            $(function() {
+            $( "#departure" ).datepicker();
+            });
+            
+            $(function() {
+            $( "#arrival" ).datepicker();
+            });
+        </script>
+        
     </head>
 	<body onload="initSlider()">
 		<header id="menuTop">
@@ -43,7 +42,7 @@
 				</ul>
 			</div>
 		</header>
-        <section>
+        <section>         
             <?php include("indexDiv.php") ?>
             <?php include("budget.php") ?>
             <?php include("calendar.php") ?>
