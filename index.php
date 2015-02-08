@@ -4,11 +4,6 @@
 		<title>Mistery Trip</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-        <script>
-            $(function(){
-                $("#divIndex").load("indexDiv.php");
-            });
-        </script>
 	</head>
 	<body>
 		<header id="menuTop">
@@ -29,10 +24,10 @@
 				</ul>
 			</div>
 		</header>
-		<section>
-            <div id="divIndex"></div>
-		</section>
-			<footer></footer>
-			
+        <section>
+            <?php include("indexDiv.php") ?>
+            <?php include("budget.php") ?>
+        </section>
+        <footer></footer>	
 	</body>
 </html>
