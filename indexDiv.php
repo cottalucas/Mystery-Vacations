@@ -3,7 +3,7 @@
 
         <div class="text1">
             <h1>Hello Adventurous Traveler</h1>
-            <p>&quot; The journey of a thousand miles begins with a single step. &quot; ― Lao Tzu.<br> Let the Mystery Vacation do all the hard work to you. Choose and your destination it will be mysterious selected.</p> 
+            <p>&quot; The journey of a thousand miles begins with a single step. &quot; - Lao Tzu.<br> Let the Mystery Vacation do all the hard work to you. Choose and your destination it will be mysterious selected.</p> 
             
 
         </div>
