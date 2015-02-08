@@ -20,5 +20,7 @@
             Tell us what you like
         </div>
     </div>
+
+    <a href="#" id="btnIndex" onclick="slide('#indexDiv', '#budgetDiv');"><div class="button" id="bStart">Get Started!</div></a>
+
 </div>
-<a href="#" id="btnIndex" onclick="slide();"><div class="button" id="bStart">Get Started!</div></a>

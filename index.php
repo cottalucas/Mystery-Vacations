@@ -43,13 +43,17 @@
 				</ul>
 			</div>
 		</header>
-        <section>
-            <?php include("indexDiv.php") ?>
-            <?php include("budget.php") ?>
-            <?php include("calendar.php") ?>
-            <?php include("information.php") ?>
-            <?php include("done.php") ?>
-        </section>
-        <footer></footer>
+
+		<div style="width: 100%">
+	        <section>
+	            <?php include("indexDiv.php") ?>
+	            <?php include("budget.php") ?>
+	            <?php include("calendar.php") ?>
+	            <?php include("information.php") ?>
+	            <?php include("done.php") ?>
+	        </section>
+	        <footer></footer>
+        <div>
+
 	</body>
 </html>
