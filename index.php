@@ -6,8 +6,10 @@
         <script type="text/javascript" href="/assets/scripts/jquery-ui.css"></script -->
 
  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 
-        <script  type="text/javascript">
+        <!--script  type="text/javascript">
             
             alert('wtf');
 
@@ -15,7 +17,7 @@
 			$(document).ready(function(){
 			    alert('das');
 			});             
-   		</script>
+   		</script-->
     
         <title>Mistery Vacations</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
