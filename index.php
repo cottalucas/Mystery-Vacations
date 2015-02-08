@@ -1,10 +1,30 @@
 <html>
     <head>
-		<title>Mistery Vacations</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
-        <script type="text/javascript" src="assets/scripts/slider.js"></script>
-	</head>
+        <script type="text/javascript" href="/assets/scripts/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" href="/assets/scripts/jquery-ui.js"></script>
+        <script type="text/javascript" href="/assets/scripts/jquery-ui.css"></script>
+        <script  type="text/javascript">
+            
+            
+         try {
+                    jQuery(function($)) {
+                    alert('test');
+                    //$( "#datepicker" ).datepicker();
+                });
+                   alert('complete');
+                }
+                
+            }
+            catch (err) {
+                alert(err);
+            }
+    </script>
+    
+        <title>Mistery Vacations</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+        <script src="assets/scripts/slider.js"></script>
+    </head>
 	<body onload="initSlider()">
 		<header id="menuTop">
 			<div class="container">
