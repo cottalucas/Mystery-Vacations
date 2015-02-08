@@ -6,5 +6,4 @@
             <p>Hell yeah!</p>
     </div>
 </div>
-<div class="button" id="bStart"><a href=#"> Back!</a></div>   
-<div class="button" id="bStart"><a href=#"> Finish!</a></div>
+

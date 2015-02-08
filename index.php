@@ -52,6 +52,5 @@
             <?php include("information.php") ?>
             <?php include("done.php") ?>
         </section>
-        <footer></footer>
 	</body>
 </html>
