@@ -27,6 +27,9 @@
         <section>
             <?php include("indexDiv.php") ?>
             <?php include("budget.php") ?>
+            <?php include("calendar.php") ?>
+            <?php include("information.php") ?>
+            <?php include("done.php") ?>
         </section>
         <footer></footer>	
 	</body>
