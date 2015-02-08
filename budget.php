@@ -8,4 +8,7 @@
         <span>$ </span><input style="padding-left: 35%" type="number" min="0.01" step="0.01" max="100000" value="">
         </div>
     </div>
+
+    <a href="#" id="btnIndex" onclick="slide('#budgetDiv', '#calendarDiv');"><div class="button" id="bStart">Next</div></a>
+
 </div>
