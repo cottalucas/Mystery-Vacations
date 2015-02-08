@@ -1,0 +1,116 @@
+
+body{
+
+	margin: 0px;
+	padding: 0px;
+
+}
+
+a:hover{
+   text-decoration:none; 
+}
+
+header{
+	margin: auto;
+	clear: both;
+}
+section{
+	position: relative;
+	margin: auto;
+	clear: both;
+}
+
+nav{
+	width: 100%;
+	margin: auto;
+	padding: auto;
+}
+
+
+.containerHeight{
+	height: 500px;
+	position: relative;
+}
+.space1{
+	float: left;
+	width: 30%;
+	text-align: center;
+}
+.text1{
+	color: #000000;
+	width: 800px;
+	margin-bottom: 10px;
+        font-size: 20px;
+}
+#menuTop{
+
+	background: -webkit-radial-gradient(#63459b 2%, #21003C); /* Safari 5.1-6.0 */
+  	background: -o-radial-gradient(#63459b 2%, #21003C); /* For Opera 11.6-12.0 */
+  	background: -moz-radial-gradient(#63459b 2%, #21003C); /* For Firefox 3.6-15 */
+  	background: radial-gradient(#63459b 2%, #21003C);
+	width: 100%;
+}
+#menuTop a{
+	font-size: 25px;
+	font-family: Tahoma;
+	padding-top: 20px;
+ 	height: 100px !important;
+	color: #FFFFFF;
+}
+
+#mainBox{
+	padding-top: 15px;
+		position: relative;
+	background-image: url("bg.png");
+	background-size: 1920px 700px;
+	overflow: hidden; 
+	display: block;
+	height: 550px; 
+	z-index: 0;	
+}
+
+#aboutBox{
+
+	color: #FFFFFF !important;
+	font-size: 30px !important;
+	height: 700px; 	
+	z-index: 0;
+}
+
+#bStart{
+	position: absolute ;
+	font-size: 45px;
+	text-align: center;
+	color: #FFFFFF;
+	height: 220px;
+	width: 220px;
+	padding-top: 28px;
+	border-radius: 150px;
+	background-color: #63459b;
+	bottom: 10;
+	left: 45%;
+	cursor: pointer;
+	z-index: 1;
+
+}
+#bStart a{
+	color: #FFFFFF;
+	font-style: normal;
+}
+#bStart:hover{
+	background-color: #21003C;
+	font-style: none !important;
+
+} 
+
+.divs{
+	color: #000000;
+	width: 800px;
+	margin-bottom: 10px;
+        font-size: 20px;
+        text-align: center;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 02fa99df2f55676b54175c1195d7692e034f0e9c
