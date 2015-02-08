@@ -1,30 +1,36 @@
 var page=0;
 
-function slide() {
+function slide(hideElm, showElm) {
     
     // Set the effect type
     var effect = 'slide';
 
     // Set the options for the effect type chosen
-    var options = { direction: 'left' };
+    var options = { direction: 'right' };
     
     // Set the duration (default: 400 milliseconds)
     var duration = 300;
     
-    if(page == 0)
+    //  style="display: none"
+
+    $(hideElm).hide();
+
+    $(showElm).toggle(effect, options, duration);
+
+    /*if(page == 0)
         $('#budgetDiv').toggle(effect, options, duration);
     else if(page == 1)
         $('#calendarDiv').toggle(effect, options, duration);
     else if(page == 2)
         $('#informationDiv').toggle(effect, options, duration);
     else
-        $('#doneDiv').toggle(effect, options, duration);
+        $('#doneDiv').toggle(effect, options, duration);*/
+
     page++;
 }
 
 function initSlider()
 {
-    alert('slider');
 
     try
     {   
@@ -32,11 +38,12 @@ function initSlider()
         var options={direction:"right"}
         var duration = 50;
 
-        /*$('#budgetDiv').toggle(effect, options, duration);
-        $('#calendarDiv').toggle(effect, options, duration);
-        $('#informationDiv').toggle(effect, options, duration);
-        $('#doneDiv').toggle(effect, options, duration);*/
-        $("#budgetDiv").hide("slide", { direction: "right" }, 1200);
+        $('#budgetDiv').hide();
+        $('#calendarDiv').hide();
+        $('#informationDiv').hide();
+        $('#doneDiv').hide();
+
+        //$("#budgetDiv").hide("slide", { direction: "left" }, 1200);
     }
     catch (err)
     {

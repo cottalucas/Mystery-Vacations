@@ -6,6 +6,8 @@
             <p align>How much do you want to spend?</p>
             <span>$ </span><input type="number" min="0.01" step="0.01" max="100000" value="">
     </div>
+
+	<div class="button" id="bStart"><a href="#"> Back!</a></div>   
+	<div class="button" id="bStart"><a href="#"> Next!</a></div>
+
 </div>
-<div class="button" id="bStart"><a href=#"> Back!</a></div>   
-<div class="button" id="bStart"><a href=#"> Next!</a></div>
