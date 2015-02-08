@@ -1,8 +1,11 @@
-<?php
+<div class="mainBox" id="informationDiv">
+    <div id="aboutBox" class="container">
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+        <div class="text1">
+            <h1>Like or Dislike?</h1>
+            <p>Facebook space</p>
+            
+    </div>
+</div>
+<div class="button" id="bStart"><a href=#"> Back!</a></div>   
+<div class="button" id="bStart"><a href=#"> Next!</a></div>

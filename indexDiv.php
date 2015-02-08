@@ -1,4 +1,4 @@
-<div class="" id="mainBox">
+<div class="mainBox" id="indexDiv">
     <div id="aboutBox" class="container">
 
         <div class="text1">
